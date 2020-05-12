@@ -117,7 +117,7 @@ namespace Selector_Colores.Formularios {
             try {
                 int valorR = int.Parse(NumR.Text);
 
-                NumR.Value = valorR + Funciones.ValidarCantidad(valorR, true, ModifierKeys);
+                NumR.Value = valorR + Funciones.ValidarCantidad(valorR, true);
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
@@ -126,7 +126,7 @@ namespace Selector_Colores.Formularios {
             try {
                 int valorR = int.Parse(NumR.Text);
 
-                NumR.Value = valorR - Funciones.ValidarCantidad(valorR, false, ModifierKeys);
+                NumR.Value = valorR - Funciones.ValidarCantidad(valorR, false);
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
@@ -164,7 +164,7 @@ namespace Selector_Colores.Formularios {
             try {
                 int valorG = int.Parse(NumG.Text);
 
-                NumG.Value = valorG + Funciones.ValidarCantidad(valorG, true, ModifierKeys);
+                NumG.Value = valorG + Funciones.ValidarCantidad(valorG, true);
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
@@ -173,7 +173,7 @@ namespace Selector_Colores.Formularios {
             try {
                 int valorG = int.Parse(NumG.Text);
 
-                NumG.Value = valorG - Funciones.ValidarCantidad(valorG, false, ModifierKeys);
+                NumG.Value = valorG - Funciones.ValidarCantidad(valorG, false);
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
@@ -211,7 +211,7 @@ namespace Selector_Colores.Formularios {
             try {
                 int valorB = int.Parse(NumB.Text);
 
-                NumB.Value = valorB + Funciones.ValidarCantidad(valorB, true, ModifierKeys);
+                NumB.Value = valorB + Funciones.ValidarCantidad(valorB, true);
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
@@ -220,7 +220,7 @@ namespace Selector_Colores.Formularios {
             try {
                 int valorB = int.Parse(NumB.Text);
 
-                NumB.Value = valorB - Funciones.ValidarCantidad(valorB, false, ModifierKeys);
+                NumB.Value = valorB - Funciones.ValidarCantidad(valorB, false);
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
 
@@ -259,7 +259,7 @@ namespace Selector_Colores.Formularios {
             try {
                 int valorA = int.Parse(NumA.Text);
 
-                NumA.Value = valorA + Funciones.ValidarCantidad(valorA, true, ModifierKeys);
+                NumA.Value = valorA + Funciones.ValidarCantidad(valorA, true);
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
@@ -268,7 +268,7 @@ namespace Selector_Colores.Formularios {
             try {
                 int valorA = int.Parse(NumA.Text);
 
-                NumA.Value = valorA - Funciones.ValidarCantidad(valorA, false, ModifierKeys);
+                NumA.Value = valorA - Funciones.ValidarCantidad(valorA, false);
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }

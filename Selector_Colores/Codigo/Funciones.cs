@@ -40,7 +40,7 @@ namespace Selector_Colores.Codigo {
 
         }
 
-        public static int ValidarCantidad(int cantidadInicial, bool agregar, Keys key) {
+        public static int ValidarCantidad(int cantidadInicial, bool agregar) {
             int cantidadChecar;
 
             switch (Control.ModifierKeys) {

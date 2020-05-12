@@ -211,6 +211,7 @@
             // 
             // PnlG
             // 
+            this.PnlG.ForeColor = System.Drawing.Color.Black;
             this.PnlG.Location = new System.Drawing.Point(40, 32);
             this.PnlG.Name = "PnlG";
             this.PnlG.Size = new System.Drawing.Size(88, 24);
@@ -219,6 +220,7 @@
             // BtnMasG
             // 
             this.BtnMasG.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BtnMasG.ForeColor = System.Drawing.Color.Black;
             this.BtnMasG.Location = new System.Drawing.Point(136, 32);
             this.BtnMasG.Name = "BtnMasG";
             this.BtnMasG.Size = new System.Drawing.Size(24, 24);
@@ -614,14 +616,14 @@
             // actualizarToolStripMenuItem
             // 
             this.actualizarToolStripMenuItem.Name = "actualizarToolStripMenuItem";
-            this.actualizarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.actualizarToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.actualizarToolStripMenuItem.Text = "Actualizar";
             this.actualizarToolStripMenuItem.Click += new System.EventHandler(this.ActualizarToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.SalirToolStripMenuItem_Click);
             // 
